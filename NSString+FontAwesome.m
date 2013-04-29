@@ -58,7 +58,274 @@
 {
     static NSArray *fontAwesomeIcons;
     if (nil == fontAwesomeIcons) {
-        fontAwesomeIcons = @[@"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @"", @""];
+        fontAwesomeIcons = @[
+                             @"\uf000",
+                             @"\uf001",
+                             @"\uf002",
+                             @"\uf003",
+                             @"\uf004",
+                             @"\uf005",
+                             @"\uf006",
+                             @"\uf007",
+                             @"\uf008",
+                             @"\uf009",
+                             @"\uf00a",
+                             @"\uf00b",
+                             @"\uf00c",
+                             @"\uf00d",
+                             @"\uf00e",
+                             
+                             @"\uf010",
+                             @"\uf011",
+                             @"\uf012",
+                             @"\uf013",
+                             @"\uf014",
+                             @"\uf015",
+                             @"\uf016",
+                             @"\uf017",
+                             @"\uf018",
+                             @"\uf019",
+                             @"\uf01a",
+                             @"\uf01b",
+                             @"\uf01c",
+                             @"\uf01d",
+                             @"\uf01e",
+                             
+                             @"\uf021",
+                             @"\uf022",
+                             @"\uf023",
+                             @"\uf024",
+                             @"\uf025",
+                             @"\uf026",
+                             @"\uf027",
+                             @"\uf028",
+                             @"\uf029",
+                             @"\uf02a",
+                             @"\uf02b",
+                             @"\uf02c",
+                             @"\uf02d",
+                             @"\uf02e",
+                             @"\uf02f",
+                             
+                             @"\uf030",
+                             @"\uf031",
+                             @"\uf032",
+                             @"\uf033",
+                             @"\uf034",
+                             @"\uf035",
+                             @"\uf036",
+                             @"\uf037",
+                             @"\uf038",
+                             @"\uf039",
+                             @"\uf03a",
+                             @"\uf03b",
+                             @"\uf03c",
+                             @"\uf03d",
+                             @"\uf03e",
+                             
+                             @"\uf040",
+                             @"\uf041",
+                             @"\uf042",
+                             @"\uf043",
+                             @"\uf044",
+                             @"\uf045",
+                             @"\uf046",
+                             @"\uf047",
+                             @"\uf048",
+                             @"\uf049",
+                             @"\uf04a",
+                             @"\uf04b",
+                             @"\uf04c",
+                             @"\uf04d",
+                             @"\uf04e",
+                             
+                             @"\uf050",
+                             @"\uf051",
+                             @"\uf052",
+                             @"\uf053",
+                             @"\uf054",
+                             @"\uf055",
+                             @"\uf056",
+                             @"\uf057",
+                             @"\uf058",
+                             @"\uf059",
+                             @"\uf05a",
+                             @"\uf05b",
+                             @"\uf05c",
+                             @"\uf05d",
+                             @"\uf05e",
+                             
+                             @"\uf060",
+                             @"\uf061",
+                             @"\uf062",
+                             @"\uf063",
+                             @"\uf064",
+                             @"\uf065",
+                             @"\uf066",
+                             @"\uf067",
+                             @"\uf068",
+                             @"\uf069",
+                             @"\uf06a",
+                             @"\uf06b",
+                             @"\uf06c",
+                             @"\uf06d",
+                             @"\uf06e",
+                             
+                             @"\uf070",
+                             @"\uf071",
+                             @"\uf072",
+                             @"\uf073",
+                             @"\uf074",
+                             @"\uf075",
+                             @"\uf076",
+                             @"\uf077",
+                             @"\uf078",
+                             @"\uf079",
+                             @"\uf07a",
+                             @"\uf07b",
+                             @"\uf07c",
+                             @"\uf07d",
+                             @"\uf07e",
+                             
+                             @"\uf080",
+                             @"\uf081",
+                             @"\uf082",
+                             @"\uf083",
+                             @"\uf084",
+                             @"\uf085",
+                             @"\uf086",
+                             @"\uf087",
+                             @"\uf088",
+                             @"\uf089",
+                             @"\uf08a",
+                             @"\uf08b",
+                             @"\uf08c",
+                             @"\uf08d",
+                             @"\uf08e",
+                             
+                             @"\uf090",
+                             @"\uf091",
+                             @"\uf092",
+                             @"\uf093",
+                             @"\uf094",
+                             @"\uf095",
+                             @"\uf096",
+                             @"\uf097",
+                             @"\uf098",
+                             @"\uf099",
+                             @"\uf09a",
+                             @"\uf09b",
+                             @"\uf09c",
+                             @"\uf09d",
+                             @"\uf09e",
+                             
+                             @"\uf0a0",
+                             @"\uf0a1",
+                             @"\uf0a2",
+                             @"\uf0a3",
+                             @"\uf0a4",
+                             @"\uf0a5",
+                             @"\uf0a6",
+                             @"\uf0a7",
+                             @"\uf0a8",
+                             @"\uf0a9",
+                             @"\uf0aa",
+                             @"\uf0ab",
+                             @"\uf0ac",
+                             @"\uf0ad",
+                             @"\uf0ae",
+                             
+                             @"\uf0b0",
+                             @"\uf0b1",
+                             @"\uf0b2",
+                             
+                             @"\uf0c0",
+                             @"\uf0c1",
+                             @"\uf0c2",
+                             @"\uf0c3",
+                             @"\uf0c4",
+                             @"\uf0c5",
+                             @"\uf0c6",
+                             @"\uf0c7",
+                             @"\uf0c8",
+                             @"\uf0c9",
+                             @"\uf0ca",
+                             @"\uf0cb",
+                             @"\uf0cc",
+                             @"\uf0cd",
+                             @"\uf0ce",
+                             
+                             @"\uf0d0",
+                             @"\uf0d1",
+                             @"\uf0d2",
+                             @"\uf0d3",
+                             @"\uf0d4",
+                             @"\uf0d5",
+                             @"\uf0d6",
+                             @"\uf0d7",
+                             @"\uf0d8",
+                             @"\uf0d9",
+                             @"\uf0da",
+                             @"\uf0db",
+                             @"\uf0dc",
+                             @"\uf0dd",
+                             @"\uf0de",
+                             
+                             @"\uf0e0",
+                             @"\uf0e1",
+                             @"\uf0e2",
+                             @"\uf0e3",
+                             @"\uf0e4",
+                             @"\uf0e5",
+                             @"\uf0e6",
+                             @"\uf0e7",
+                             @"\uf0e8",
+                             @"\uf0e9",
+                             @"\uf0ea",
+                             @"\uf0eb",
+                             @"\uf0ec",
+                             @"\uf0ed",
+                             @"\uf0ee",
+                             
+                             @"\uf0f0",
+                             @"\uf0f1",
+                             @"\uf0f2",
+                             @"\uf0f3",
+                             @"\uf0f4",
+                             @"\uf0f5",
+                             @"\uf0f6",
+                             @"\uf0f7",
+                             @"\uf0f8",
+                             @"\uf0f9",
+                             @"\uf0fa",
+                             @"\uf0fb",
+                             @"\uf0fc",
+                             @"\uf0fd",
+                             @"\uf0fe",
+                             
+                             @"\uf100",
+                             @"\uf101",
+                             @"\uf102",
+                             @"\uf103",
+                             @"\uf104",
+                             @"\uf105",
+                             @"\uf106",
+                             @"\uf107",
+                             @"\uf108",
+                             @"\uf109",
+                             @"\uf10a",
+                             @"\uf10b",
+                             @"\uf10c",
+                             @"\uf10d",
+                             @"\uf10e",
+                             
+                             @"\uf110",
+                             @"\uf111",
+                             @"\uf112",
+                             @"\uf113",
+                             @"\uf114",
+                             @"\uf115"
+                             ];
     }
     return fontAwesomeIcons;
 }
@@ -83,6 +350,7 @@
 		tmp[@"icon-ok"] = @(FAIconOk);
 		tmp[@"icon-remove"] = @(FAIconRemove);
 		tmp[@"icon-zoom-in"] = @(FAIconZoomIn);
+        
 		tmp[@"icon-zoom-out"] = @(FAIconZoomOut);
 		tmp[@"icon-off"] = @(FAIconOff);
 		tmp[@"icon-signal"] = @(FAIconSignal);
@@ -98,6 +366,8 @@
 		tmp[@"icon-inbox"] = @(FAIconInbox);
 		tmp[@"icon-play-circle"] = @(FAIconPlayCircle);
 		tmp[@"icon-repeat"] = @(FAIconRepeat);
+        
+        
 		tmp[@"icon-refresh"] = @(FAIconRefresh);
 		tmp[@"icon-list-alt"] = @(FAIconListAlt);
 		tmp[@"icon-lock"] = @(FAIconLock);
@@ -113,6 +383,7 @@
 		tmp[@"icon-book"] = @(FAIconBook);
 		tmp[@"icon-bookmark"] = @(FAIconBookmark);
 		tmp[@"icon-print"] = @(FAIconPrint);
+        
 		tmp[@"icon-camera"] = @(FAIconCamera);
 		tmp[@"icon-font"] = @(FAIconFont);
 		tmp[@"icon-bold"] = @(FAIconBold);
@@ -128,6 +399,7 @@
 		tmp[@"icon-indent-right"] = @(FAIconIndentRight);
 		tmp[@"icon-facetime-video"] = @(FAIconFacetimeVideo);
 		tmp[@"icon-picture"] = @(FAIconPicture);
+        
 		tmp[@"icon-pencil"] = @(FAIconPencil);
 		tmp[@"icon-map-marker"] = @(FAIconMapMarker);
 		tmp[@"icon-adjust"] = @(FAIconAdjust);
@@ -143,6 +415,7 @@
 		tmp[@"icon-pause"] = @(FAIconPause);
 		tmp[@"icon-stop"] = @(FAIconStop);
 		tmp[@"icon-forward"] = @(FAIconForward);
+        
 		tmp[@"icon-fast-forward"] = @(FAIconFastForward);
 		tmp[@"icon-step-forward"] = @(FAIconStepForward);
 		tmp[@"icon-eject"] = @(FAIconEject);
@@ -158,6 +431,7 @@
 		tmp[@"icon-remove-circle"] = @(FAIconRemoveCircle);
 		tmp[@"icon-ok-circle"] = @(FAIconOkCircle);
 		tmp[@"icon-ban-circle"] = @(FAIconBanCircle);
+        
 		tmp[@"icon-arrow-left"] = @(FAIconArrowLeft);
 		tmp[@"icon-arrow-right"] = @(FAIconArrowRight);
 		tmp[@"icon-arrow-up"] = @(FAIconArrowUp);
@@ -173,6 +447,7 @@
 		tmp[@"icon-leaf"] = @(FAIconLeaf);
 		tmp[@"icon-fire"] = @(FAIconFire);
 		tmp[@"icon-eye-open"] = @(FAIconEyeOpen);
+        
 		tmp[@"icon-eye-close"] = @(FAIconEyeClose);
 		tmp[@"icon-warning-sign"] = @(FAIconWarningSign);
 		tmp[@"icon-plane"] = @(FAIconPlane);
@@ -188,6 +463,7 @@
 		tmp[@"icon-folder-open"] = @(FAIconFolderOpen);
 		tmp[@"icon-resize-vertical"] = @(FAIconResizeVertical);
 		tmp[@"icon-resize-horizontal"] = @(FAIconResizeHorizontal);
+        
 		tmp[@"icon-bar-chart"] = @(FAIconBarChart);
 		tmp[@"icon-twitter-sign"] = @(FAIconTwitterSign);
 		tmp[@"icon-facebook-sign"] = @(FAIconFacebookSign);
@@ -203,6 +479,7 @@
 		tmp[@"icon-linkedin-sign"] = @(FAIconLinkedinSign);
 		tmp[@"icon-pushpin"] = @(FAIconPushpin);
 		tmp[@"icon-external-link"] = @(FAIconExternalLink);
+        
 		tmp[@"icon-signin"] = @(FAIconSignin);
 		tmp[@"icon-trophy"] = @(FAIconTrophy);
 		tmp[@"icon-github-sign"] = @(FAIconGithubSign);
@@ -218,6 +495,7 @@
 		tmp[@"icon-unlock"] = @(FAIconUnlock);
 		tmp[@"icon-credit-card"] = @(FAIconCreditCard);
 		tmp[@"icon-rss"] = @(FAIconRss);
+        
 		tmp[@"icon-hdd"] = @(FAIconHdd);
 		tmp[@"icon-bullhorn"] = @(FAIconBullhorn);
 		tmp[@"icon-bell"] = @(FAIconBell);
@@ -233,9 +511,11 @@
 		tmp[@"icon-globe"] = @(FAIconGlobe);
 		tmp[@"icon-wrench"] = @(FAIconWrench);
 		tmp[@"icon-tasks"] = @(FAIconTasks);
+        
 		tmp[@"icon-filter"] = @(FAIconFilter);
 		tmp[@"icon-briefcase"] = @(FAIconBriefcase);
 		tmp[@"icon-fullscreen"] = @(FAIconFullscreen);
+        
 		tmp[@"icon-group"] = @(FAIconGroup);
 		tmp[@"icon-link"] = @(FAIconLink);
 		tmp[@"icon-cloud"] = @(FAIconCloud);
@@ -251,6 +531,7 @@
 		tmp[@"icon-strikethrough"] = @(FAIconStrikethrough);
 		tmp[@"icon-underline"] = @(FAIconUnderline);
 		tmp[@"icon-table"] = @(FAIconTable);
+        
 		tmp[@"icon-magic"] = @(FAIconMagic);
 		tmp[@"icon-truck"] = @(FAIconTruck);
 		tmp[@"icon-pinterest"] = @(FAIconPinterest);
@@ -266,6 +547,7 @@
 		tmp[@"icon-sort"] = @(FAIconSort);
 		tmp[@"icon-sort-down"] = @(FAIconSortDown);
 		tmp[@"icon-sort-up"] = @(FAIconSortUp);
+        
 		tmp[@"icon-envelope-alt"] = @(FAIconEnvelopeAlt);
 		tmp[@"icon-linkedin"] = @(FAIconLinkedin);
 		tmp[@"icon-undo"] = @(FAIconUndo);
@@ -277,46 +559,50 @@
 		tmp[@"icon-sitemap"] = @(FAIconSitemap);
 		tmp[@"icon-umbrella"] = @(FAIconUmbrella);
 		tmp[@"icon-paste"] = @(FAIconPaste);
+		tmp[@"icon-lightbulb"] = @(FAIconLightbulb);
+		tmp[@"icon-exchange"] = @(FAIconExchange);
+		tmp[@"icon-cloud-download"] = @(FAIconCloudDownload);
+		tmp[@"icon-cloud-upload"] = @(FAIconCloudUpload);
+        
 		tmp[@"icon-user-md"] = @(FAIconUserMd);
 		tmp[@"icon-stethoscope"] = @(FAIconStethoscope);
+		tmp[@"icon-suitcase"] = @(FAIconSuitcase);
+		tmp[@"icon-bell-alt"] = @(FAIconBellAlt);
+		tmp[@"icon-coffee"] = @(FAIconCoffee);
+		tmp[@"icon-food"] = @(FAIconFood);
+		tmp[@"icon-file-alt"] = @(FAIconFileAlt);
 		tmp[@"icon-building"] = @(FAIconBuilding);
 		tmp[@"icon-hospital"] = @(FAIconHospital);
 		tmp[@"icon-ambulance"] = @(FAIconAmbulance);
 		tmp[@"icon-medkit"] = @(FAIconMedkit);
+		tmp[@"icon-fighter-jet"] = @(FAIconFighterJet);
+		tmp[@"icon-beer"] = @(FAIconBeer);
 		tmp[@"icon-h-sign"] = @(FAIconHSign);
 		tmp[@"icon-plus-sign-alt"] = @(FAIconPlusSignAlt);
-		tmp[@"icon-spinner"] = @(FAIconSpinner);
-		tmp[@"icon-cloud-download"] = @(FAIconCloudDownload);
-		tmp[@"icon-cloud-upload"] = @(FAIconCloudUpload);
-		tmp[@"icon-lightbulb"] = @(FAIconLightbulb);
-		tmp[@"icon-exchange"] = @(FAIconExchange);
-		tmp[@"icon-bell-alt"] = @(FAIconBellAlt);
-		tmp[@"icon-file-alt"] = @(FAIconFileAlt);
-		tmp[@"icon-beer"] = @(FAIconBeer);
-		tmp[@"icon-coffee"] = @(FAIconCoffee);
-		tmp[@"icon-food"] = @(FAIconFood);
-		tmp[@"icon-fighter-jet"] = @(FAIconFighterJet);
-		tmp[@"icon-angle-left"] = @(FAIconAngleLeft);
-		tmp[@"icon-angle-right"] = @(FAIconAngleRight);
-		tmp[@"icon-angle-up"] = @(FAIconAngleUp);
-		tmp[@"icon-angle-down"] = @(FAIconAngleDown);
+
 		tmp[@"icon-double-angle-left"] = @(FAIconDoubleAngleLeft);
 		tmp[@"icon-double-angle-right"] = @(FAIconDoubleAngleRight);
 		tmp[@"icon-double-angle-up"] = @(FAIconDoubleAngleUp);
 		tmp[@"icon-double-angle-down"] = @(FAIconDoubleAngleDown);
-		tmp[@"icon-circle-blank"] = @(FAIconCircleBlank);
-		tmp[@"icon-circle"] = @(FAIconCircle);
+		tmp[@"icon-angle-left"] = @(FAIconAngleLeft);
+		tmp[@"icon-angle-right"] = @(FAIconAngleRight);
+		tmp[@"icon-angle-up"] = @(FAIconAngleUp);
+		tmp[@"icon-angle-down"] = @(FAIconAngleDown);
 		tmp[@"icon-desktop"] = @(FAIconDesktop);
 		tmp[@"icon-laptop"] = @(FAIconLaptop);
 		tmp[@"icon-tablet"] = @(FAIconTablet);
 		tmp[@"icon-mobile-phone"] = @(FAIconMobilePhone);
+		tmp[@"icon-circle-blank"] = @(FAIconCircleBlank);
 		tmp[@"icon-quote-left"] = @(FAIconQuoteLeft);
 		tmp[@"icon-quote-right"] = @(FAIconQuoteRight);
+
+		tmp[@"icon-spinner"] = @(FAIconSpinner);
+		tmp[@"icon-circle"] = @(FAIconCircle);
 		tmp[@"icon-reply"] = @(FAIconReply);
 		tmp[@"icon-github-alt"] = @(FAIconGithubAlt);
-		tmp[@"icon-close-alt"] = @(FAIconFolderCloseAlt);
+		tmp[@"icon-folder-close-alt"] = @(FAIconFolderCloseAlt);
 		tmp[@"icon-folder-open-alt"] = @(FAIconFolderOpenAlt);
-		tmp[@"icon-suitcase"] = @(FAIconSuitcase);
+
 		enumDictionary = tmp;
 	}
     
