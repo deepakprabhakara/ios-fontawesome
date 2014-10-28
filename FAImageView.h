@@ -1,5 +1,5 @@
 //
-//  FAImageView.m
+//  FAImageView.h
 //
 //  Copyright (c) 2012 Alex Usbergo. All rights reserved.
 //

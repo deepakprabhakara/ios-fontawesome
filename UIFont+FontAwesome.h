@@ -1,5 +1,5 @@
 //
-//  UIFont+FontAwesome.m
+//  UIFont+FontAwesome.h
 //
 //  Copyright (c) 2012 Alex Usbergo. All rights reserved.
 //
@@ -26,7 +26,9 @@
 
 @interface UIFont (FontAwesome)
 
-/* Returns the FontAwesome iconic font */
-+ (UIFont*)iconicFontOfSize:(CGFloat)size;
+/**
+ @abstract Returns the FontAwesome iconic font.
+ */
++ (UIFont*)fontAwesomeFontOfSize:(CGFloat)size;
 
 @end
